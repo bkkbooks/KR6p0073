@@ -1,0 +1,45 @@
+canonical_identifier: bkk:krp/KR6p0073/v1
+canonical_location: https://kanripo.org/bkk/KR6p0073/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 讚阿彌陀佛偈
+  identifiers:
+    alt_id:
+    - T47n1978
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T47/T47n1978.xml
+    old_id: T47n1978
+  edition:
+    short: bkk
+editions:
+- short: 乙
+  label: 乙
+  source_xml_id: wit1
+- short: 甲
+  label: 甲
+  source_xml_id: wit2
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6p0073_000.yaml, hash: 'sha256:e98e2ec298d9c7a552192c113557ea02aa7746465bfc6ec7559343e8e7ae754d'}
+  - {seq: 1, filename: KR6p0073_001.yaml, hash: 'sha256:8532860ca9078b25e4de52f1f6d7bba8895570cad03b45029396efb5e852ec98'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6p0073_001.markers.yaml, hash: 'sha256:99d30adc547f5db5e1d0571a695262a354252f5cd45efe34a4fdd90e25e077f1'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6p0073_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 4237
+  label: 讚阿彌陀佛偈
+  type: juan
+  level: 1
+hash: sha256:1a4a040b02c9e3b623ca431cb9cb9217cbd4a5803cfc596bef2959761c2ebe2a
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
