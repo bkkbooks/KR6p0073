@@ -25,9 +25,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6p0073_000.yaml, hash: 'sha256:e98e2ec298d9c7a552192c113557ea02aa7746465bfc6ec7559343e8e7ae754d'}
-  - {seq: 1, filename: KR6p0073_001.yaml, hash: 'sha256:8532860ca9078b25e4de52f1f6d7bba8895570cad03b45029396efb5e852ec98'}
+  - {seq: 1, filename: KR6p0073_001.yaml, hash: 'sha256:daf75cd89560e077de136c8b0adb05f5b60e8384686c181d1611e5ab578b4b5c'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6p0073_001.markers.yaml, hash: 'sha256:99d30adc547f5db5e1d0571a695262a354252f5cd45efe34a4fdd90e25e077f1'}
+  - {seq: 0, role: markers, filename: assets/KR6p0073_000.markers.yaml, hash: 'sha256:3a31fc246dfc24c9fdc3c417bc9680590002eaea78c9cbcebc3f73ac744bb9d1'}
+  - {seq: 1, role: markers, filename: assets/KR6p0073_001.markers.yaml, hash: 'sha256:8f1724ac4f118efdd4d5622b6059777595918c151d4dbe6aa349663775fa29ea'}
 table_of_contents:
 - ref:
     seq: 1
@@ -39,7 +40,4 @@ table_of_contents:
   label: 讚阿彌陀佛偈
   type: juan
   level: 1
-hash: sha256:1a4a040b02c9e3b623ca431cb9cb9217cbd4a5803cfc596bef2959761c2ebe2a
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:0c71efdbac5db19ce510a126fa56b1859b4e2439046b8381b72e02e35bf3f181
