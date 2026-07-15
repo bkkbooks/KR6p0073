@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6p0073/v1
 canonical_location: https://kanripo.org/bkk/KR6p0073/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 讚阿彌陀佛偈
   identifiers:
@@ -25,10 +25,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6p0073_000.yaml, hash: 'sha256:e98e2ec298d9c7a552192c113557ea02aa7746465bfc6ec7559343e8e7ae754d'}
-  - {seq: 1, filename: KR6p0073_001.yaml, hash: 'sha256:daf75cd89560e077de136c8b0adb05f5b60e8384686c181d1611e5ab578b4b5c'}
+  - {seq: 1, filename: KR6p0073_001.yaml, hash: 'sha256:5b9598d7a2a0c716c8669b6001ee2c3e0aec28385bc351b063ad65c9f55c776c'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6p0073_000.markers.yaml, hash: 'sha256:3a31fc246dfc24c9fdc3c417bc9680590002eaea78c9cbcebc3f73ac744bb9d1'}
-  - {seq: 1, role: markers, filename: assets/KR6p0073_001.markers.yaml, hash: 'sha256:8f1724ac4f118efdd4d5622b6059777595918c151d4dbe6aa349663775fa29ea'}
+  - {seq: 1, role: markers, filename: assets/KR6p0073_001.markers.yaml, hash: 'sha256:5fa82c2fde7a3f974085c314ef2359aab0b25677107d7220b61c53acb5b58b50'}
 table_of_contents:
 - ref:
     seq: 1
@@ -40,4 +40,7 @@ table_of_contents:
   label: 讚阿彌陀佛偈
   type: juan
   level: 1
-hash: sha256:0c71efdbac5db19ce510a126fa56b1859b4e2439046b8381b72e02e35bf3f181
+hash: sha256:bb2c092b4a4f85866f27193f03cb619b96b7f471522a3c39a7b9c350bd062129
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
